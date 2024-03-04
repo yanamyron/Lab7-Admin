@@ -1,0 +1,6 @@
+---
+- name: Install and configure Nginx server
+  hosts: 192.168.56.1
+  become: true
+  roles:
+    - student_nginx_server
